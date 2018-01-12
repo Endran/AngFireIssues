@@ -14,7 +14,6 @@ export class ExampleComponent implements OnInit {
   example;
 
   ngOnInit() {
-    this.example = this.db.list('example');
+    this.example = this.db.list('example').valueChanges();
   }
-
 }
