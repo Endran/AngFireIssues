@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {HttpModule} from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
 
-import {AngularFireModule} from 'angularFire2';
+import {AngularFireModule} from 'angularfire2';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
 import { ExampleComponent } from './example/example.component';
 
